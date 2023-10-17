@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './slot2/Mapping-collections-to-elements/App';
 import reportWebVitals from './reportWebVitals';
-import MySection from './slot2/create-jsx-elements/MySection';
-import MyButton from './slot2/create-jsx-elements/MyButton';
-import MyComponent from './slot2/create-jsx-elements/MyComponent';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyComponent>
-      <MyComponent.First />
-      <MyComponent.Second />
-    </MyComponent>
+    <App />
   </React.StrictMode>
 );
 

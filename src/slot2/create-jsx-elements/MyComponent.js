@@ -27,5 +27,6 @@ class MyComponent extends React.Component{
 
 MyComponent.First = First;
 MyComponent.Second = Second;
+
 export default MyComponent;
 export {First, Second}
