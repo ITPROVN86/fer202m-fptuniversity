@@ -4,13 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import MySection from './slot2/create-jsx-elements/MySection';
 import MyButton from './slot2/create-jsx-elements/MyButton';
+import MyComponent from './slot2/create-jsx-elements/MyComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MySection>
-      <MyButton>My Button</MyButton>
-    </MySection>
+    <MyComponent>
+      <MyComponent.First />
+      <MyComponent.Second />
+    </MyComponent>
   </React.StrictMode>
 );
 
